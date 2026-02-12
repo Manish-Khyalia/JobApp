@@ -1,0 +1,68 @@
+/* ================= JOB LIST PAGE ================= */
+
+.page-title {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 28px;
+    color: #2c3e50;
+}
+
+.jobs-wrapper {
+    width: 75%;
+    margin: auto;
+}
+
+.job-card {
+    background: #ffffff;
+    padding: 20px 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border-left: 6px solid #007bff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+}
+
+.job-card:hover {
+    transform: translateY(-4px);
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job-id {
+    color: #888;
+    font-size: 14px;
+}
+
+.job-profile {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+    text-transform: capitalize;
+}
+
+.job-desc {
+    margin: 15px 0;
+    color: #444;
+}
+
+.job-exp {
+    margin-bottom: 12px;
+}
+
+.job-tech {
+    margin-top: 10px;
+}
+
+.tech-pill {
+    display: inline-block;
+    background: #e7f1ff;
+    color: #0056b3;
+    padding: 5px 12px;
+    margin: 4px;
+    border-radius: 20px;
+    font-size: 13px;
+}
